@@ -12,8 +12,8 @@ ADD . /root/detection/
 
 #RUN apt-get install -y git python-pip
 
-RUN pip install --upgrade pip
-RUN pip install -r requirements.txt
+#RUN pip install --upgrade pip
+#RUN pip install -r requirements.txt
 
 EXPOSE 5000
 
